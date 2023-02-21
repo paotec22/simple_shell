@@ -6,18 +6,8 @@
  *
  * Return: Nothing
  */
-void _eputs(char *str)
-{
-	int i = 0;
 
-	if (!str)
-		return;
-	while (str[i] != '\0')
-	{
-		_eputchar(str[i]);
-		i++;
-	}
-}
+
 
 /**
  * _eputchar - writes the character c to stderr
